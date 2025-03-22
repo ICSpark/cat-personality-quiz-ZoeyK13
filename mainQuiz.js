@@ -82,6 +82,7 @@ function loadQuestion(ID) {
     
     // Step 1
     let questionText = document.getElementById('question-text');
+    let questionText = document.getElementById 
     
     // Step 2
     questionText.innerHTML = questions[ID].text;
